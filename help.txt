@@ -1,0 +1,9 @@
+Debug Command (GDB)
+
+break main: Set a breakpoint at the main function.
+run: Start executing the program.
+step: Execute one instruction and move to the next source line.
+next: Execute one source line and move to the next line.
+print variable_name: Print the value of a variable.
+continue: Continue executing the program until the next breakpoint.
+quit: Exit GDB.
