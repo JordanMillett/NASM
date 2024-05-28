@@ -1,4 +1,17 @@
-Debug Command (GDB)
+--- REGISTERS ---
+
+eax - values that are return from functions go into this register
+
+--- PRESERVED REGISTERS ---
+
+esp - stack pointer, points to top of stack, used to push pop values too
+ebp - base pointer, can point parameters and local variables in the functions stack frame
+
+--- DATA TYPES ---
+
+DWORD - double word, unsigned 32 bit integer, 4 bytes
+
+--- DEBUG COMMANDS (GDB) ---
 
 break main: Set a breakpoint at the main function.
 run: Start executing the program.
